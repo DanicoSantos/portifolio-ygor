@@ -13,7 +13,7 @@
         >
       </div>
       <div
-        class="navigation column is-flex is-justify-content-center is-align-content-center"
+        class="navigation column pt-0 is-flex is-justify-content-center is-align-content-center"
       >
         <NavBar />
       </div>

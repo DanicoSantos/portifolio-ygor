@@ -19,19 +19,6 @@
 <style lang="scss">
 @import "../node_modules/bulma";
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-
 .app__header {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
