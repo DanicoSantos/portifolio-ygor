@@ -13,10 +13,16 @@
         >
       </div>
       <div
-        class="navigation column pt-0 is-flex is-justify-content-center is-align-content-center"
+        class="navigation column py-0 is-flex is-justify-content-center is-align-content-center"
       >
         <NavBar />
       </div>
+      <section class="container is-widescreen">
+        <div class="columns is-desktop">
+          <Project title="Marcas" class="column px-0"/>
+          <Project title="Web design" class="column px-0"/>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -24,11 +30,13 @@
 <script>
 // @ is an alias to /src
 import NavBar from "../components/NavBar.vue";
+import Project from "../components/Project.vue";
 
 export default {
   name: "Home",
   components: {
     NavBar,
+    Project,
   },
 };
 </script>
