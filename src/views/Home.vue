@@ -37,6 +37,14 @@ export default {
     NavBar,
     Project,
   },
+  mounted() {
+    this.changePageTitle()
+  },
+  methods: {
+    changePageTitle() {
+     return document.title = 'Home | Visual Design';
+    }
+  }
 };
 </script>
 
