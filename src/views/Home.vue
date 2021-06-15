@@ -2,8 +2,8 @@
   <div class="home">
     <div class="is-centered is-desktop">
       <div class="banner mb-6 pb-4 has-text-centered">
-        <h1 class="title is-1">Visual designer</h1>
-        <p class="subtitle is-4 px-2">
+        <h1 class="title has-text-grey is-1">Visual designer</h1>
+        <p class="subtitle has-text-grey-light is-4 px-2">
           Projetos de identidade visual, editorial e sites.
         </p>
         <a
@@ -17,13 +17,12 @@
       >
         <NavBar />
       </div>
-      <section class="container is-widescreen">
-        <div class="">
+      
+    </div>
+    <section class="container is-widescreen">
           <Project title="Marcas" class="px-0"/>
           <Project title="Web design" class="px-0"/>
-        </div>
       </section>
-    </div>
   </div>
 </template>
 
