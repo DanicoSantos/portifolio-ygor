@@ -6,10 +6,10 @@
         <p class="subtitle has-text-grey-light is-4 px-2">
           Projetos de identidade visual, editorial e sites.
         </p>
-        <a
-          href=""
+        <router-link
+          to="/contato"
           class="button is-secondary is-large is-size-4 has-text-weight-bold"
-          >Orçamento</a
+          >Orçamento</router-link
         >
       </div>
       <div
@@ -56,5 +56,10 @@ export default {
   width: 275px;
   height: 75px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: ease 0.5s;
+}
+
+.is-secondary:hover {
+  background-color: #ff665a;
 }
 </style>

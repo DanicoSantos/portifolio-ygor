@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div class="app is-flex is-flex-direction-column is-justify-content-space-between">
     <header
       class="app__header py-3 mb-3 is-flex is-justify-content-center is-align-items-center"
     >
@@ -27,6 +27,13 @@
 
 <style lang="scss">
 @import "../node_modules/bulma";
+#app {
+  height: 100vh;
+}
+
+.app {
+  height: 100%;
+}
 
 .app__header {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
@@ -38,5 +45,17 @@
 
 .footer__icon a {
   color: #ff665a;
+}
+
+.is-secondary {
+  background-color: #a0a0a0;
+  width: 275px;
+  height: 75px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: ease 0.5s;
+}
+
+.is-secondary:hover {
+  background-color: #ff665a;
 }
 </style>
