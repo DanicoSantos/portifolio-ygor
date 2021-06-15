@@ -18,6 +18,19 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    this.changePageTitle()
+  },
+  methods: {
+    changePageTitle() {
+     return document.title = 'Contato | Visual Design';
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 @import "../../node_modules/bulma";
 
