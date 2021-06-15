@@ -1,6 +1,6 @@
 <template>
 <div class="project">
-    <h3 class="title is-5 has-text-grey-light has-text-centered">{{ title }}</h3>
+    <h3 class="title has-text-weight-normal is-5 has-text-grey-light has-text-centered">{{ title }}</h3>
     <figure class="image">
         <img :src="imageUrl" alt="">
     </figure>

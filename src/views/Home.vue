@@ -1,26 +1,26 @@
 <template>
   <div class="home">
-    <div class="columns is-centered is-desktop">
-      <div class="banner column has-text-centered">
+    <div class="is-centered is-desktop">
+      <div class="banner mb-6 pb-4 has-text-centered">
         <h1 class="title is-1">Visual designer</h1>
         <p class="subtitle is-4 px-2">
           Projetos de identidade visual, editorial e sites.
         </p>
         <a
           href=""
-          class="button is-secondary is-large is-rounded is-size-4 has-text-weight-bold"
+          class="button is-secondary is-large is-size-4 has-text-weight-bold"
           >Orçamento</a
         >
       </div>
       <div
-        class="navigation column py-0 is-flex is-justify-content-center is-align-content-center"
+        class="navigation py-0 is-flex is-justify-content-center is-align-content-center"
       >
         <NavBar />
       </div>
       <section class="container is-widescreen">
-        <div class="columns is-desktop">
-          <Project title="Marcas" class="column px-0"/>
-          <Project title="Web design" class="column px-0"/>
+        <div class="">
+          <Project title="Marcas" class="px-0"/>
+          <Project title="Web design" class="px-0"/>
         </div>
       </section>
     </div>

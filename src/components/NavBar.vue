@@ -1,5 +1,5 @@
 <template>
-  <div class="is-uppercase navigation__bar is-size-5">
+  <div class="is-capitalized navigation__bar is-size-5">
     <router-link to="/">Projetos</router-link>
     <span class="has-text-grey-light"> | </span>
     <router-link to="/contato">Contato</router-link>

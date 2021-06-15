@@ -12,7 +12,7 @@
     <section class="section">
       <router-view />
     </section>
-    <footer class="footer py-4">
+    <footer class="footer py-4 has-background-grey-lighter">
       <div class="container has-text-centered">
         <span class="footer__icon is-size-3"
           ><a href="#" target="_blank"><i class="fab fa-instagram"></i></a
