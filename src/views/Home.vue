@@ -20,7 +20,7 @@
       
     </div>
     <section class="container is-widescreen">
-          <Project title="Marcas" class="px-0"/>
+          <Project title="Marcas" class="px-0" pageLink="/marcas"/>
           <Project title="Web design" class="px-0"/>
       </section>
   </div>
