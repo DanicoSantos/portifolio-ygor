@@ -1,7 +1,7 @@
 <template>
   <div class="project">
     <router-link :to="pageLink"><h3
-      class="title has-text-weight-normal is-5 has-text-grey-light has-text-centered"
+      class="title has-text-weight-normal is-5 has-text-weight-bold has-text-grey-light has-text-centered"
     >
       {{ title }}
     </h3></router-link>

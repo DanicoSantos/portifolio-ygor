@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="is-centered is-desktop">
+    <div class="is-centered is-desktop section">
       <div class="banner mb-6 pb-4 has-text-centered">
         <h1 class="title has-text-grey is-1">Visual designer</h1>
         <p class="subtitle has-text-grey-light is-4 px-2">
@@ -17,12 +17,11 @@
       >
         <NavBar />
       </div>
-      
     </div>
     <section class="container is-widescreen">
-          <Project title="Marcas" class="px-0" pageLink="/marcas"/>
-          <Project title="Web design" class="px-0"/>
-      </section>
+      <Project title="Marcas" class="px-0" pageLink="/marcas" />
+      <Project title="Web design" class="px-0" />
+    </section>
   </div>
 </template>
 
@@ -38,13 +37,13 @@ export default {
     Project,
   },
   mounted() {
-    this.changePageTitle()
+    this.changePageTitle();
   },
   methods: {
     changePageTitle() {
-     return document.title = 'Home | Visual Design';
-    }
-  }
+      return (document.title = "Home | Visual Design");
+    },
+  },
 };
 </script>
 
@@ -52,7 +51,7 @@ export default {
 @import "../../node_modules/bulma";
 
 .is-secondary {
-  background-color: #a0a0a0;
+  background-color: #a0a0a0 !important;
   width: 275px;
   height: 75px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);

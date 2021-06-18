@@ -9,7 +9,7 @@
         </router-link>
       </div>
     </header>
-    <section class="section">
+    <section class="">
       <router-view />
     </section>
     <footer class="footer py-4 has-background-grey-lighter">
