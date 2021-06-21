@@ -10,10 +10,10 @@
     <div class="has-text-centered">
       <h3 class="title has-text-grey is-4 is-uppercase">Dúvidas?</h3>
       <a
-          href=""
-          class="button is-small is-secondary is-size-5 has-text-weight-bold"
-          >Whatsapp</a
-        >
+        href=""
+        class="button is-small is-secondary is-size-5 has-text-weight-bold"
+        >Whatsapp</a
+      >
     </div>
   </div>
 </template>
@@ -21,19 +21,17 @@
 <script>
 export default {
   mounted() {
-    this.changePageTitle()
+    this.changePageTitle();
   },
   methods: {
     changePageTitle() {
-     return document.title = 'Contato | Visual Design';
-    }
-  }
-}
+      return (document.title = "Contato | Visual Design");
+    },
+  },
+};
 </script>
 
-<style lang="scss">
-@import "../../node_modules/bulma";
-
+<style lang="scss" scoped>
 .is-secondary {
   background-color: #a0a0a0;
   max-width: 150px;

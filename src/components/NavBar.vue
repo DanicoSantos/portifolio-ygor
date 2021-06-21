@@ -12,9 +12,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../../node_modules/bulma";
-
+<style lang="scss" scoped>
 .navigation__bar {
   padding: 30px;
 

@@ -1,10 +1,12 @@
 <template>
   <div class="project">
-    <router-link :to="pageLink"><h3
-      class="title has-text-weight-normal is-5 has-text-weight-bold has-text-grey-light has-text-centered"
+    <router-link :to="pageLink"
+      ><h3
+        class="title has-text-weight-normal is-5 has-text-weight-bold has-text-grey-light has-text-centered"
+      >
+        {{ title }}
+      </h3></router-link
     >
-      {{ title }}
-    </h3></router-link>
     <figure class="image mt-4">
       <img :src="imageUrl" width alt="" />
     </figure>
@@ -24,21 +26,21 @@ export default {
       default: "https://via.placeholder.com/500",
     },
     pageLink: {
-        type: String,
-        default: "/"
-    }
+      type: String,
+      default: "/",
+    },
   },
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .project {
   margin-bottom: 2rem;
 }
 
 .image img {
-    max-width: 800px;
-    max-height: 600px;
-    margin: 0 auto;
+  max-width: 800px;
+  max-height: 600px;
+  margin: 0 auto;
 }
 </style>

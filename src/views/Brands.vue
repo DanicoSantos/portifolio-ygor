@@ -8,7 +8,7 @@
     </div>
     <div class="container is-widescreen pt-1">
       <figure class="image">
-        <router-link to="/"
+        <router-link to="/marca"
           ><img src="https://via.placeholder.com/500" alt=""
         /></router-link>
       </figure>
@@ -25,7 +25,7 @@
 export default {
   name: "Brands",
   mounted() {
-      this.changePageTitle()
+    this.changePageTitle();
   },
   methods: {
     changePageTitle() {
@@ -35,12 +35,10 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../../node_modules/bulma";
-
+<style lang="scss" scoped>
 .image img {
-    max-width: 800px;
-    max-height: 600px;
-    margin: 0 auto;
+  max-width: 800px;
+  max-height: 600px;
+  margin: 0 auto;
 }
 </style>

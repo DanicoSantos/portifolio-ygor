@@ -47,9 +47,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../../node_modules/bulma";
-
+<style lang="scss" scoped>
 .is-secondary {
   background-color: #a0a0a0 !important;
   width: 275px;
